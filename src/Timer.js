@@ -1,11 +1,6 @@
 import {View} from './View.js'
-// console.log(View)
+
 const Timer = {
-    // init(){
-    //     setInterval(()=>{
-    //         console.log("alguma coisa"),1000
-    //     })
-    // }
     time: 60 * 60,
     currentTime: 0,
     interval: null,
